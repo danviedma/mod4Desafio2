@@ -1,0 +1,8 @@
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    border: 1px solid #f3d774;
+    padding: 20px;
+    margin-bottom: 100px;
+}

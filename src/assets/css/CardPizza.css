@@ -1,0 +1,91 @@
+.card{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card h2{
+ font-size: 1.5rem;
+ color:gray;
+ padding: 10px;
+ 
+}
+
+.card h3{
+    font-size: 1.2rem;
+    color: gray;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.ingredientes{
+    text-align: center;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    font-size: 1.5rem;
+    color: darkgray;
+}
+
+.price-button{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.anadir{
+    background-color: black;
+    color: white;
+}
+
+.anadir:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.vermas{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.vermas:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,38 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Ajusta el tamaño según lo necesites */
+    overflow: hidden;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen se ajuste correctamente */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Texto blanco */
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .overlay p {
+    font-size: 1.2rem;
+    margin: 10px 0 0 0;
+  }
+  

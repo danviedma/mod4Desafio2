@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #000000; /* Negro */
+  }
+  
+  .navbar-brand {
+    color: #ffffff !important; /* Texto blanco */
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    color: #ffffff !important; /* Texto blanco */
+  }
+  
+  .nav-link.nav-button {
+    border: 1px solid #f3d774; /* Borde amarillo pálido */
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link.nav-button:hover {
+    background-color: #f3d774; /* Amarillo pálido al pasar el cursor */
+    color: #000000 !important; /* Texto negro al pasar el cursor */
+  }
+#total{
+    border: 1px solid lightblue;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: lightblue;
+}

@@ -19,7 +19,6 @@ function App() {
       <Navbar />
      {/* <Home />*/}
       {/*<RegisterPage />*/}
-      {/*<LoginPage />*/}
       <LoginPage /> 
       <Footer />
     </div>
